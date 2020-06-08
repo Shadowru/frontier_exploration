@@ -17,7 +17,10 @@ find_package(Boost REQUIRED)
 catkin_package(
   INCLUDE_DIRS include
   LIBRARIES polygon_layer
-  CATKIN_DEPENDS costmap_2d geometry_msgs exploration_msgs
+  CATKIN_DEPENDS
+    costmap_2d
+    geometry_msgs
+    exploration_msgs
   DEPENDS Boost
 )
 
